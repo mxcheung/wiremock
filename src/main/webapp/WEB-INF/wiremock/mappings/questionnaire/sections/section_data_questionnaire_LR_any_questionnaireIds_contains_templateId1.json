@@ -1,0 +1,124 @@
+{
+	"request": {
+		"method": "GET",
+        "urlPattern":"/questionnaire/sections.*",
+	"queryParameters" : {
+      "questionnaireID" : {
+      "equalTo" : "templateId1"
+      }
+    }
+	
+	
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Allow-Methods": "*",
+			"Access-Control-Allow-Headers": "Accept, Content-Type, Content-Encoding, Server, Transfer-Encoding",
+			"X-Content-Type-Options": "nosniff",
+			"x-frame-options": "DENY",
+			"x-xss-protection": "1; mode=block"
+		},
+		"jsonBody": {
+			"correlationID": "123",
+			"questionnaires": [
+				{
+					"name": "Quarterly Questionnaire",
+					"id": "templateId1",
+					"owners": "[]",
+					"extUniqueKey": "FM-49218",
+					"productId": "",
+					"templateId": "template1",
+					"sections": [
+						{
+							"sectionName": "General Fund Overview",
+							"id": 11,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 100,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Investment",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Administraton",
+							"id": 13,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 100,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Administraton Service Standards",
+							"id": 14,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 20,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Member Servicing",
+							"id": 15,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 100,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Insurance",
+							"id": 16,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 50,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Fund Governance",
+							"id": 17,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						}
+					]
+				}
+			]
+		}
+	}
+}

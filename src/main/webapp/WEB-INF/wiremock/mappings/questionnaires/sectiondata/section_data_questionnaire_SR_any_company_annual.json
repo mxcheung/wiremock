@@ -1,0 +1,195 @@
+{
+	"request": {
+		"method": "GET",
+		"headers": {
+			"segmentCd": {
+				"contains": "SR"
+			}
+		},
+      "urlPattern":"/questionnaires/sectiondata.*",
+      "queryParameters":{
+         "templateType":{
+            "equalTo":"ANNUAL"
+         }
+      }
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Allow-Methods": "*",
+			"Access-Control-Allow-Headers": "Accept, Content-Type, Content-Encoding, Server, Transfer-Encoding",
+			"X-Content-Type-Options": "nosniff",
+			"x-frame-options": "DENY",
+			"x-xss-protection": "1; mode=block"
+		},
+		"jsonBody": {
+			"correlationID": "123",
+			"questionnaires": [
+				{
+					"name": "Annual Questionnaire",
+					"id": 1,
+					"owners": [],
+					"extUniqueKey": 634,
+					"productId": "",
+					"templateId": "template1",
+					"sections": [
+						{
+							"sectionName": "General Fund Overview",
+							"id": 11,
+							"owners": [
+								{"id": "1124b6ae-b528-4b36-aa03-506008057c53", "name": "Anne Bate"}
+							],
+							"completion": 20,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Investment",
+							"id": 12,
+							"owners": [
+								{"id": "1124b6ae-b528-4b36-aa03-506008057c53", "name": "Anne Bate"}
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Administraton",
+							"id": 13,
+							"owners": [
+								{"id": "1124b6ae-b528-4b36-aa03-506008057c53", "name": "Anne Bate"}
+							],
+							"completion": 50,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Administraton Service Standards",
+							"id": 13,
+							"owners": [
+								{"id": "1124b6ae-b528-4b36-aa03-506008057c53", "name": "Anne Bate"}
+							],
+							"completion": 20,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Member Servicing",
+							"id": 13,
+							"owners": [
+								{"id": "1124b6ae-b528-4b36-aa03-506008057c53", "name": "Anne Bate"}
+							],
+							"completion": 70,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Insurance",
+							"id": 13,
+							"owners": [
+								{"id": "1124b6ae-b528-4b36-aa03-506008057c53", "name": "Anne Bate"}
+							],
+							"completion": 50,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Fund Governance",
+							"id": 13,
+							"owners": [
+								{"id": "1124b6ae-b528-4b36-aa03-506008057c53", "name": "Anne Bate"}
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						}
+					]
+				},
+				{
+					"name": "Annual Product 2 <== constructed in front end (product name)",
+					"id": "2",
+					"owners": [],
+					"extUniqueKey": 634,
+					"productId": 1054,
+					"templateId": "template2",
+					"sections": [
+						{
+							"sectionName": "General",
+							"id": 11,
+							"owners": [
+								{"id": "1124b6ae-b528-4b36-aa03-506008057c53", "name": "Anne Bate"}
+							],
+							"completion": 20,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Marketing and Corporate Communications",
+							"id": 12,
+							"owners": [
+								{"id": "1124b6ae-b528-4b36-aa03-506008057c53", "name": "Anne Bate"}
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						}
+					]
+				},
+				{
+					"name": "Advance Retirement Suite - Super Account - Personal",
+					"id": 3,
+					"owners": [],
+					"extUniqueKey": 634,
+					"productId": 1055,
+					"templateId": "template2",
+					"sections": [
+						{
+							"sectionName": "General",
+							"id": 11,
+							"owners": [
+								{"id": "1124b6ae-b528-4b36-aa03-506008057c53", "name": "Anne Bate"}
+							],
+							"completion": 20,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Marketing and Corporate Communications",
+							"id": 12,
+							"owners": [
+								{"id": "1124b6ae-b528-4b36-aa03-506008057c53", "name": "Anne Bate"}
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						}
+					]
+				}
+			]
+		}
+	}
+}

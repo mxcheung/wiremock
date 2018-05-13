@@ -1,0 +1,29 @@
+{
+   "request":{
+      "method":"GET",
+      "headers":{
+         "segmentCd":{
+            "contains":"LR"
+         }
+      },
+      "urlPattern":"/questionnaire/questionnaire.*",
+      "queryParameters":{
+         "templateType":{
+            "equalTo":"incomemultiasset"
+         }
+      }
+   },
+   "response":{
+      "status":200,
+      "headers":{
+         "Content-Type":"application/json",
+         "Access-Control-Allow-Origin":"*",
+         "Access-Control-Allow-Methods":"*",
+         "Access-Control-Allow-Headers":"Accept, Content-Type, Content-Encoding, Server, Transfer-Encoding",
+         "X-Content-Type-Options":"nosniff",
+         "x-frame-options":"DENY",
+         "x-xss-protection":"1; mode=block"
+      },
+      "bodyFileName":"/questionnaire/questionnaire/lrc-incomemultiasset-20170811.json"
+   }
+}

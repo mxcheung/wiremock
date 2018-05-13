@@ -1,0 +1,61 @@
+{
+   "request":{
+      "method":"GET",
+      "headers":{
+         "segmentCd": {
+            "contains": "LR"
+         }
+      },
+      "url":"/questionnaires/ongoing?type=company"
+   },
+   "response":{
+      "status":200,
+      "headers":{
+         "Content-Type":"application/json",
+         "Access-Control-Allow-Origin":"*",
+         "Access-Control-Allow-Methods":"*",
+         "Access-Control-Allow-Headers":"Accept, Content-Type, Content-Encoding, Server, Transfer-Encoding",
+         "X-Content-Type-Options":"nosniff",
+         "x-frame-options":"DENY",
+         "x-xss-protection":"1; mode=block"
+      },
+      "jsonBody":{
+         "correlationID":"123",
+         "questionnaires":[
+            {
+               "id": "1",
+               "extUniqueKey": "FM-49218",
+               "templateId": "templateId1",
+               "lag": 1,
+               "promptFrequency": "Qtr",
+               "lastPromptDate": "2017-09-30T10:00:00+10:00",
+               "nextPromptDate": "2017-10-30T00:00:00+11:00"
+            },
+            {
+               "id": "2",
+               "extUniqueKey": "FM-49329",
+               "templateId": "templateId2",
+               "lag": 1,
+               "promptFrequency": "Mth",
+               "lastPromptDate": "2017-09-30T10:00:00+10:00",
+               "nextPromptDate": "2017-10-30T00:00:00+11:00"
+            },
+ {  "id": "lrc-holding-20170224-FM-36179-2017-12-31T10:00Z",  "extUniqueKey": "FM-36179",  "templateId": "lrc-holding-20170224",  "lag": 0,  "promptFrequency": "Qtr",   "lastPromptDate": "2017-12-31T10:00Z",  "nextPromptDate": "2018-03-31T10:00Z"  }, 
+ {  "id": "lrc-holding-20170224-FM-15784-2017-12-31T10:00Z",  "extUniqueKey": "FM-15784",  "templateId": "lrc-holding-20170224",  "lag": 0,  "promptFrequency": "Mth",   "lastPromptDate": "2017-12-31T10:00Z",  "nextPromptDate": "2018-01-31T10:00Z"  }, 
+ {  "id": "lrc-holding-20170224-FM-49619-2017-11-30T10:00Z",  "extUniqueKey": "FM-49619",  "templateId": "lrc-holding-20170224",  "lag": 1,  "promptFrequency": "Mth",   "lastPromptDate": "2017-11-30T10:00Z",  "nextPromptDate": "2017-12-31T10:00Z"  }, 
+ {  "id": "lrc-holding-20170224-FM-58242-2017-12-31T10:00Z",  "extUniqueKey": "FM-58242",  "templateId": "lrc-holding-20170224",  "lag": 0,  "promptFrequency": "Mth",   "lastPromptDate": "2017-12-31T10:00Z",  "nextPromptDate": "2018-01-31T10:00Z"  }, 
+ {  "id": "lrc-holding-20170224-FM-49516-2017-12-31T10:00Z",  "extUniqueKey": "FM-49516",  "templateId": "lrc-holding-20170224",  "lag": 0,  "promptFrequency": "Mth",   "lastPromptDate": "2017-12-31T10:00Z",  "nextPromptDate": "2018-01-31T10:00Z"  }, 
+ {  "id": "lrc-holding-20170224-FM-36186-2017-12-31T10:00Z",  "extUniqueKey": "FM-36186",  "templateId": "lrc-holding-20170224",  "lag": 0,  "promptFrequency": "Qtr",   "lastPromptDate": "2017-12-31T10:00Z",  "nextPromptDate": "2018-03-31T10:00Z"  }, 
+ {  "id": "lrc-holding-20170224-FM-49184-2017-12-31T10:00Z",  "extUniqueKey": "FM-49184",  "templateId": "lrc-holding-20170224",  "lag": 0,  "promptFrequency": "Mth",   "lastPromptDate": "2017-12-31T10:00Z",  "nextPromptDate": "2018-01-31T10:00Z"  }, 
+ {  "id": "lrc-holding-20170224-FM-49189-2017-09-30T10:00Z",  "extUniqueKey": "FM-49189",  "templateId": "lrc-holding-20170224",  "lag": 3,  "promptFrequency": "Mth",   "lastPromptDate": "2017-09-30T10:00Z",  "nextPromptDate": "2017-10-31T10:00Z"  }, 
+ {  "id": "lrc-holding-20170224-FM-49199-2017-12-31T10:00Z",  "extUniqueKey": "FM-49199",  "templateId": "lrc-holding-20170224",  "lag": 0,  "promptFrequency": "Qtr",   "lastPromptDate": "2017-12-31T10:00Z",  "nextPromptDate": "2018-03-31T10:00Z"  }, 
+ {  "id": "lrc-holding-20170224-FM-49204-2017-09-30T10:00Z",  "extUniqueKey": "FM-49204",  "templateId": "lrc-holding-20170224",  "lag": 3,  "promptFrequency": "Mth",   "lastPromptDate": "2017-09-30T10:00Z",  "nextPromptDate": "2017-10-31T10:00Z"  }, 
+ {  "id": "lrc-holding-20170224-FM-49236-2017-12-31T10:00Z",  "extUniqueKey": "FM-49236",  "templateId": "lrc-holding-20170224",  "lag": 0,  "promptFrequency": "Qtr",   "lastPromptDate": "2017-12-31T10:00Z",  "nextPromptDate": "2018-03-31T10:00Z"  }, 
+ {  "id": "lrc-holding-20170224-FM-49264-2017-12-31T10:00Z",  "extUniqueKey": "FM-49264",  "templateId": "lrc-holding-20170224",  "lag": 0,  "promptFrequency": "Qtr",   "lastPromptDate": "2017-12-31T10:00Z",  "nextPromptDate": "2018-03-31T10:00Z"  }, 
+ {  "id": "lrc-holding-20170224-FM-49337-2017-09-30T10:00Z",  "extUniqueKey": "FM-49337",  "templateId": "lrc-holding-20170224",  "lag": 3,  "promptFrequency": "Mth",   "lastPromptDate": "2017-09-30T10:00Z",  "nextPromptDate": "2017-10-31T10:00Z"  }, 
+ {  "id": "lrc-holding-20170224-FM-49348-2017-12-31T10:00Z",  "extUniqueKey": "FM-49348",  "templateId": "lrc-holding-20170224",  "lag": 0,  "promptFrequency": "Qtr",   "lastPromptDate": "2017-12-31T10:00Z",  "nextPromptDate": "2018-03-31T10:00Z"  } 
+
+         ]
+      }
+   }
+}

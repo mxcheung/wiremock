@@ -1,0 +1,45 @@
+###
+# Register with Eureka
+###
+eureka:
+  instance:
+    preferIpAddress: true
+    nonSecurePort: 8005
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:10010/eureka
+     
+###
+# For local environment specify the port
+### 
+server:
+  port: 8005
+  
+###
+# Local dev security settings.
+###    
+management:
+  security:
+    enabled: false
+   
+###
+# Oauth2 Remote Token Registration
+###
+lonsec:
+  oauth2:
+    token:
+      remote:
+        endpoint: http://localhost:10014/lonsec-sso-service/oauth/check_token
+        clientId: lonsecApp
+        secret: secret 
+
+###
+# Logging levels - local dev debug.
+### 
+logging:
+  level:
+    com.netflix: DEBUG
+    org.springframework.web: DEBUG
+    

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<property name="PROJECT" value="lonsec-wiremock-service" />
+	
+    <property name="LOG_DIR" value="${catalina.base}/logs" />
+
+    <appender name="LONSEC_LOG"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/${PROJECT}.log</file>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>DEBUG</level>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily, zipping previous days -->
+            <fileNamePattern>${LOG_DIR}/${PROJECT}.%d{dd-MM-yyyy}.log.zip</fileNamePattern>
+            <maxHistory>14</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{dd-MM-yyyy HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <charset>UTF-8</charset>
+            <Pattern>%d{dd-MM-yyyy HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+	<springProfile name="prod">
+    	<root level="INFO">
+        	<appender-ref ref="LONSEC_LOG"/>
+    	</root>
+	</springProfile>
+	
+	<springProfile name="uat">
+    	<root level="INFO">
+        	<appender-ref ref="LONSEC_LOG"/>
+    	</root>
+	</springProfile>
+	
+	<springProfile name="dev">
+    	<root level="INFO">
+        	<appender-ref ref="LONSEC_LOG"/>
+    	</root>
+	</springProfile>
+	
+	<springProfile name="local">
+    	<root level="INFO">
+        	<appender-ref ref="CONSOLE"/>
+    	</root>
+	</springProfile>
+
+</configuration>

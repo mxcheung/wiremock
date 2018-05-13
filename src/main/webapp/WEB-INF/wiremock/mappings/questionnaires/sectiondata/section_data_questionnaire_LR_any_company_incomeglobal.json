@@ -1,0 +1,305 @@
+{
+	"request": {
+		"method": "GET",
+		"headers": {
+			"segmentCd": {
+				"contains": "LR"
+			}
+		},
+		"urlPattern": "/questionnaires/sectiondata.*",
+    "queryParameters" : {
+      "templateType" : {
+        "equalTo" : "incomeglobal"
+      }
+    }
+		
+
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Allow-Methods": "*",
+			"Access-Control-Allow-Headers": "Accept, Content-Type, Content-Encoding, Server, Transfer-Encoding",
+			"X-Content-Type-Options": "nosniff",
+			"x-frame-options": "DENY",
+			"x-xss-protection": "1; mode=block"
+		},
+		"jsonBody": {
+			"correlationID": "123",
+			"questionnaires": [
+				{
+					"name": "Annual Sector Surveillance",
+					"id": 1,
+					"owners": "[]",
+					"extUniqueKey": 634,
+					"productId": "",
+					"templateId": "template1",
+					"sections": [
+						{
+							"sectionName": "Questionnaire Warranties",
+							"id": 11,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 20,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Asset Class Information",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						}
+					]
+				},
+				{
+					"name": "Annual Product 2 <== constructed in front end (product name)",
+					"id": "2",
+					"owners": "[]",
+					"extUniqueKey": 634,
+					"productId": 1054,
+					"templateId": "template2",
+					"sections": [
+						{
+							"sectionName": "Investment Team and Remuneration",
+							"id": 11,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 20,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "General Product Information",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Service Providers and Counterparties",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Distribution",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Research Approach",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Risk Management",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Portfolio Construction",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Asset Allocation",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Attribution",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						}												
+					]
+				},
+				{
+					"name": "CFS FirstChoice Multi-Index Conservation Fund - Class A (FSF1414AU) - Multi Asset",
+					"id": 3,
+					"owners": "[]",
+					"extUniqueKey": 634,
+					"productId": 1055,
+					"templateId": "template2",
+					"sections": [
+						{
+							"sectionName": "Investment Team and Remuneration",
+							"id": 11,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 20,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "General Product Information",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Service Providers and Counterparties",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Distribution",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Research Approach",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Risk Management",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Portfolio Construction",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Asset Allocation",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						},
+						{
+							"sectionName": "Attribution",
+							"id": 12,
+							"owners": [
+								"Anne Bate"
+							],
+							"completion": 80,
+							"status": "pending",
+							"lastModifiedDate": "10/12/2017",
+							"rating": 2.5,
+							"finalRating": 0.31
+						}												
+					]
+				}
+			]
+		}
+	}
+}

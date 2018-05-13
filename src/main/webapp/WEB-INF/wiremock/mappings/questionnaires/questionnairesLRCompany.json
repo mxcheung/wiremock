@@ -1,0 +1,71 @@
+{
+   "request":{
+      "method":"GET",
+      "headers":{
+         "segmentCd": {
+            "contains": "LR"
+         }
+      },
+      "url":"/questionnaires?type=company"
+   },
+   "response":{
+      "status":200,
+      "headers":{
+         "Content-Type":"application/json",
+         "Access-Control-Allow-Origin":"*",
+         "Access-Control-Allow-Methods":"*",
+         "Access-Control-Allow-Headers":"Accept, Content-Type, Content-Encoding, Server, Transfer-Encoding",
+         "X-Content-Type-Options":"nosniff",
+         "x-frame-options":"DENY",
+         "x-xss-protection":"1; mode=block"
+      },
+      "jsonBody":{
+         "correlationID":"123",
+         "questionnaires":[
+            {
+               "id": "1",
+               "name": "2017 questionnaire - templateId1",
+               "templateId": "templateId1",
+               "status": "review",
+               "extUniqueKey": "FM-49218",
+               "periodEndDate": "2017-09-30T10:00:00+10:00",
+               "activateDate": "2017-10-05T01:00:00+11:00",
+               "promptDate": "2017-10-06T01:00:00+11:00",
+               "dueDate": "2017-11-05T01:00:00+11:00",
+               "closeDate": "2017-11-05T01:00:00+11:00",
+               "submitDate": "2017-11-22T11:00:00+11:00",
+               "progress": "90"
+            },
+            {
+               "id": "2",
+               "name": "2017 questionnaire 2",
+               "templateId": "templateId2",
+               "status": "review",
+               "extUniqueKey": "FM-49301",
+               "periodEndDate": "2017-09-30T10:00:00+10:00",
+               "activateDate": "2017-10-05T01:00:00+11:00",
+               "promptDate": "2017-10-06T01:00:00+11:00",
+               "dueDate": "2017-11-05T01:00:00+11:00",
+               "closeDate": "2017-11-05T01:00:00+11:00",
+               "submitDate": "2017-11-22T11:00:00+11:00",
+               "progress": "50"
+            },
+            {
+               "id": "3",
+               "name": "2017 questionnaire 3",
+               "templateId": "templateId3",
+               "status": "pending",
+               "extUniqueKey": "FM-49329",
+               "periodEndDate": "2017-09-30T10:00:00+10:00",
+               "activateDate": "2017-10-05T01:00:00+11:00",
+               "promptDate": "2017-10-06T01:00:00+11:00",
+               "dueDate": "2017-11-05T01:00:00+11:00",
+               "closeDate": "2017-11-05T01:00:00+11:00",
+               "submitDate": "2017-11-22T11:00:00+11:00",
+               "progress": "50"
+            }
+         ]
+      }
+   }
+}
+
