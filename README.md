@@ -94,7 +94,7 @@ Test wiremock mappings prior to check in
 1. Download wiremock standalone http://wiremock.org/docs/running-standalone/
     Note: wiremock-standalone-2.8.0.jar added to .gitignore
 2. Copy wiremock jar to directory webapp\WEBINF
-3. C:\git\lonsec-dp-wiremock-service\src\main\webapp\WEB-INF\wiremock>java -jar wiremock-standalone-2.8.0.jar --port 8005
+3. C:\git\lonsec-dp-wiremock-service\src\main\webapp\WEB-INF\wiremock>java -jar wiremock-standalone-2.8.0.jar --port 8005 --verbose
 	 /$$      /$$ /$$                     /$$      /$$                     /$$
 	| $$  /$ | $$|__/                    | $$$    /$$$                    | $$
 	| $$ /$$$| $$ /$$  /$$$$$$   /$$$$$$ | $$$$  /$$$$  /$$$$$$   /$$$$$$$| $$   /$$
