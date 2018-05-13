@@ -7,25 +7,32 @@
 		"default": true
 	},
 	{
-		"id": 8,
-		"name": "Deadpool",
-		"alterEgo": "Wade Winston Wilson",
-		"likes": 17662,
+		"id": 5,
+		"name": "Iron man",
+		"alterEgo": "Tony Stark",
+		"likes": 1269,
 		"default": true
 	},
 	{
 		"id": 1,
 		"name": "Spiderman",
 		"alterEgo": "Peter Parker",
-		"likes": 14541,
+		"likes": 14542,
 		"default": true
 	},
 	{
-		"id": 5,
-		"name": "Iron man",
-		"alterEgo": "Tony Stark",
-		"likes": 1269,
+		"id": 8,
+		"name": "Deadpool",
+		"alterEgo": "Wade Winston Wilson",
+		"likes": 17665,
 		"default": true
+	},
+	{
+		"id": 8772,
+		"name": "Captain Marvel",
+		"alterEgo": "Carol Danvers",
+		"likes": 0,
+		"default": false
 	},
 	{
 		"id": 7,
@@ -47,6 +54,13 @@
 		"alterEgo": "Bruce Wayne",
 		"likes": 1233,
 		"default": true
+	},
+	{
+		"id": 8771,
+		"name": "Mock Duck",
+		"alterEgo": "Mok Duk",
+		"likes": 0,
+		"default": false
 	},
 	{
 		"id": 4,
